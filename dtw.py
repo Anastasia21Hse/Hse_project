@@ -65,3 +65,4 @@ def best_way (time_seq1=[], time_seq2=[]):
     if len(way) > 0:
         cost_dtw = sum(elem_way) // len(way)  #считаем накопленную деформацию
         return (way [::-1], cost_dtw)
+    
