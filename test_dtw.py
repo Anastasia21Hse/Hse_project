@@ -46,15 +46,4 @@ def test_one_seq2():
     s2 = [100]
     with pytest.raises(Exception):
         dtw.dynamic_time_warping(s2)
-
-
-
-
-
-
-
-
-
-
-
-
+        
