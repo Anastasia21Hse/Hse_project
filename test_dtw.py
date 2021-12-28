@@ -1,6 +1,5 @@
 import dtw
 import pytest
-import random
 
 def test_seq1():
     s1 = [1, 2, 3, 4, 5, 5, 5, 4]
